@@ -1,0 +1,23 @@
+split:
+    tmux new-session -d -s cargo-split -n "dual debug"
+    tmux split-window -h
+    tmux rename-window -t cargo-split:0.0 "master debug"
+    tmux rename-window -t cargo-split:0.1 "slave debug"
+    tmux send-keys -t cargo-split:0.0 "just master" C-m
+    tmux send-keys -t cargo-split:0.1 "just slave" C-m
+    tmux attach-session -t cargo-split
+
+master:
+    echo "Building for master-device."
+    cargo build --features master --target-dir ./master-target
+    espflash /dev/ttyACM1 ./master-target/riscv32imc-unknown-none-elf/debug/espnow_test --monitor
+
+slave:
+    echo "Building for slave-device."
+    cargo build
+    cargo espflash /dev/ttyACM0 --monitor
+
+clean:
+    cargo clean
+    rm -rf ./master-target/
+
