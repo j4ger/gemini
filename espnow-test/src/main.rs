@@ -130,7 +130,8 @@ async fn master_task(mut espnow: EspNow, token: u32, mut pin: Gpio0<Input<PullDo
                 let end = Instant::now();
                 pin.wait_for_falling_edge().await.unwrap();
                 let round_trip = end - start;
-                info!("Round trip took {} ms.", round_trip.as_millis());
+                // display round trip time
+                info!("Round trip time: {:?}", round_trip);
                 counter += 1;
                 Timer::after(Duration::from_millis(200)).await;
             }

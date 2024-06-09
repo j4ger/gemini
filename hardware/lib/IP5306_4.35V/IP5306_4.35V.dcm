@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IP5306_4.35V
+D 2.1A Charging 2.4 A Discharge Highly Integrated Mobile Power Supply
+K
+F https://datasheet.lcsc.com/szlcsc/1906271838_INJOINIC-IP5306-4-35V_C384572.pdf
+$ENDCMP
+#
+#End Doc Library

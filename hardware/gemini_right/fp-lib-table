@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "choc_v1v2_compatible_withLED")(type "KiCad")(uri "${KIPRJMOD}/../lib/choc_v1v2_compatible_withLED")(options "")(descr ""))
+  (lib (name "IP5306_4.35V")(type "KiCad")(uri "${KIPRJMOD}/../lib/IP5306_4.35V")(options "")(descr ""))
+  (lib (name "sop-16_L9.9-W3.9-P1.27-LS6.0")(type "KiCad")(uri "${KIPRJMOD}/../lib/sop-16_L9.9-W3.9-P1.27-LS6.0.pretty")(options "")(descr ""))
+  (lib (name "SOP65P640X120-24N")(type "KiCad")(uri "${KIPRJMOD}/../lib/SOP65P640X120-24N.pretty")(options "")(descr ""))
+  (lib (name "ssop-16_L4.6-W2.6-P0.53-LS4.0")(type "KiCad")(uri "${KIPRJMOD}/../lib/ssop-16_L4.6-W2.6-P0.53-LS4.0.pretty")(options "")(descr ""))
+  (lib (name "ESP32C3WROOM02N4")(type "KiCad")(uri "${KIPRJMOD}/../lib/ESP32C3WROOM02N4.pretty")(options "")(descr ""))
+)
