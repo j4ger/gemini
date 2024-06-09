@@ -7190,6 +7190,17 @@
 		)
 		(uuid "d7e1307e-257b-42d2-b65c-de61dfa55839")
 	)
+	(label "USB_HID_TRANSMIT"
+		(at 144.78 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8890b5c-ef84-4ff5-964d-6089c809af45")
+	)
 	(label "RROW2"
 		(at 82.55 76.2 0)
 		(fields_autoplaced yes)
