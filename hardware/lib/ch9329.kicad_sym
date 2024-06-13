@@ -6,16 +6,16 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U?"
-			(at 0 0 0)
+		(property "Reference" "U"
+			(at 0 14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "CH9329"
+			(at 0.508 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "sop-16_L9.9-W3.9-P1.27-LS6.0:SOP-16_L9.9-W3.9-P1.27-LS6.0-BL"
-			(at 0 0 0)
+			(at 0.508 -4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,14 +51,14 @@
 		)
 		(symbol "CH9329_1_0"
 			(rectangle
-				(start -8.89 -11.43)
-				(end 8.89 11.43)
+				(start -8.89 11.43)
+				(end 8.89 -11.43)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(circle

@@ -7,22 +7,22 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0.762 1.016 0)
+			(at 7.62 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 -1.27 0)
+		(property "Value" "IP5407"
+			(at 7.366 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "IP5407"
+		(property "Footprint" "IP5306_4.35V:SOIC127P600X165-9N"
 			(at 7.112 -1.27 0)
 			(effects
 				(font
@@ -58,7 +58,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)

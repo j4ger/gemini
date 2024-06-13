@@ -7,15 +7,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0.762 1.016 0)
+			(at 7.366 3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 -1.27 0)
+		(property "Value" "SL2.1s"
+			(at 7.62 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -58,7 +58,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)

@@ -6,4 +6,6 @@
   (lib (name "SOP65P640X120-24N")(type "KiCad")(uri "${KIPRJMOD}/../lib/SOP65P640X120-24N.pretty")(options "")(descr ""))
   (lib (name "ssop-16_L4.6-W2.6-P0.53-LS4.0")(type "KiCad")(uri "${KIPRJMOD}/../lib/ssop-16_L4.6-W2.6-P0.53-LS4.0.pretty")(options "")(descr ""))
   (lib (name "ESP32C3WROOM02N4")(type "KiCad")(uri "${KIPRJMOD}/../lib/ESP32C3WROOM02N4.pretty")(options "")(descr ""))
+  (lib (name "mx1.25_1x02_p1.25")(type "KiCad")(uri "/run/media/j4ger/Lootbox/backup-2/documents/gemini-keyboard/hardware/lib/mx1.25_1x02_p1.25.pretty")(options "")(descr ""))
+  (lib (name "FPC_1x06_p0.5")(type "KiCad")(uri "/run/media/j4ger/Lootbox/backup-2/documents/gemini-keyboard/hardware/lib/FPC_1x06_p0.5.pretty")(options "")(descr ""))
 )
