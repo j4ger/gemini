@@ -6,8 +6,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 9.398 7.112 0)
+		(property "Reference" "IC"
+			(at 26.67 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "CW2015CHBD"
-			(at 9.398 4.572 0)
+			(at 26.67 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,7 +24,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.4x1.4mm"
+		(property "Footprint" "CW2015CSAC"
 			(at 26.67 -94.92 0)
 			(effects
 				(font
@@ -34,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.cellwise-semi.com/products/product/voltameter/7"
+		(property "Datasheet" "https://www.lestat.st/_media/informatique/projets/python-cw2015/cw2015-power-management-datasheet.pdf"
 			(at 26.67 -194.92 0)
 			(effects
 				(font
