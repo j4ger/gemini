@@ -6,4 +6,7 @@
   (lib (name "XL9555__TSSOP-24_")(type "KiCad")(uri "${KIPRJMOD}/../lib/XL9555__TSSOP-24_.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32-C3-WROOM-02-N4")(type "KiCad")(uri "${KIPRJMOD}/../lib/ESP32-C3-WROOM-02-N4.kicad_sym")(options "")(descr ""))
   (lib (name "CW2015")(type "KiCad")(uri "${KIPRJMOD}/../lib/CW2015.kicad_sym")(options "")(descr ""))
+  (lib (name "ETA9742")(type "KiCad")(uri "${KIPRJMOD}/../lib/ETA9742.kicad_sym")(options "")(descr ""))
+  (lib (name "CH582F")(type "KiCad")(uri "${KIPRJMOD}/../lib/CH582F.kicad_sym")(options "")(descr ""))
+  (lib (name "chxxx")(type "Altium")(uri "${KIPRJMOD}/../lib/chxxx.altium/CHXXX.schlib")(options "")(descr ""))
 )

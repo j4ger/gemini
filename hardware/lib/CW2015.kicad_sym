@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 26.67 7.62 0)
+			(at 4.826 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "CW2015CHBD"
-			(at 26.67 5.08 0)
+			(at 4.826 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,7 +24,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CW2015CSAC"
+		(property "Footprint" "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.4x1.4mm"
 			(at 26.67 -94.92 0)
 			(effects
 				(font
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Description" "Low-Cost Fuel Gauge IC with Low-SOC Alert"
-			(at 0 0 0)
+			(at 20.32 10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,7 +138,7 @@
 			(pin passive line
 				(at 0 0 0)
 				(length 5.08)
-				(name "SDA"
+				(name "CTG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -153,10 +153,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -2.54 0)
 				(length 5.08)
-				(name "~{ALRT}"
+				(name "CELL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -171,7 +171,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -5.08 0)
 				(length 5.08)
 				(name "VDD"
@@ -192,7 +192,7 @@
 			(pin passive line
 				(at 0 -7.62 0)
 				(length 5.08)
-				(name "SCL"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -207,10 +207,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin output line
 				(at 0 -10.16 0)
 				(length 5.08)
-				(name "NC"
+				(name "~{ALRT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -228,7 +228,7 @@
 			(pin passive line
 				(at 30.48 0 180)
 				(length 5.08)
-				(name "CELL"
+				(name "QSTRT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -246,7 +246,7 @@
 			(pin passive line
 				(at 30.48 -2.54 180)
 				(length 5.08)
-				(name "QSTRT"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -264,7 +264,7 @@
 			(pin passive line
 				(at 30.48 -5.08 180)
 				(length 5.08)
-				(name "GND"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -282,7 +282,7 @@
 			(pin passive line
 				(at 30.48 -7.62 180)
 				(length 5.08)
-				(name "CTG"
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
