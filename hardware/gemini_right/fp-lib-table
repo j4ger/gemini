@@ -10,4 +10,5 @@
   (lib (name "QFN-28_L4.0-W4.0-P0.40-EP2.8")(type "KiCad")(uri "${KIPRJMOD}/../lib/QFN-28_L4.0-W4.0-P0.40-EP2.8.pretty")(options "")(descr ""))
   (lib (name "chxxx")(type "Altium Designer")(uri "${KIPRJMOD}/../lib/chxxx.altium/CHXXX.pcblib")(options "")(descr ""))
   (lib (name "SOIC127P600X175-9N")(type "KiCad")(uri "${KIPRJMOD}/../lib/SOIC127P600X175-9N.pretty")(options "")(descr ""))
+  (lib (name "chxxx_antenna")(type "KiCad")(uri "${KIPRJMOD}/../lib/antenna.pretty")(options "")(descr ""))
 )
