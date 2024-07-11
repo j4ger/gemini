@@ -7787,6 +7787,17 @@
 		)
 		(uuid "94e31e54-aeb4-4280-bfff-4a8f1f11e007")
 	)
+	(label "TPAD_NRST"
+		(at 378.46 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "970ae726-8285-41b6-acf8-cd8b23280a6c")
+	)
 	(label "SCL"
 		(at 378.46 161.29 0)
 		(fields_autoplaced yes)
@@ -7819,17 +7830,6 @@
 			(justify left bottom)
 		)
 		(uuid "9a15dc75-26d3-4e1b-b02c-9c99109c2cb1")
-	)
-	(label "TPAD_NRST"
-		(at 378.46 166.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9aec0d78-d478-4825-a861-4ad4d41d532f")
 	)
 	(label "RCOL0"
 		(at 118.11 26.67 0)
@@ -7875,17 +7875,6 @@
 		)
 		(uuid "a870762c-d91b-4d1a-aacd-e3b3de62158c")
 	)
-	(label "PWR_ALRT"
-		(at 378.46 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aae34ec6-3d8e-4cba-b304-9434a1df602a")
-	)
 	(label "X32k_PIN0"
 		(at 313.69 208.28 0)
 		(fields_autoplaced yes)
@@ -7918,6 +7907,17 @@
 			(justify left bottom)
 		)
 		(uuid "b35d089c-f000-4626-8579-9e57112c984e")
+	)
+	(label "PWR_ALRT"
+		(at 378.46 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5b15306-ca8d-4c5b-98dc-55f6cbb2de18")
 	)
 	(label "RSTn"
 		(at 128.905 236.22 0)

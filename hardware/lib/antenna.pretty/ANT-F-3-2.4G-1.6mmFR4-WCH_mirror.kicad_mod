@@ -569,17 +569,6 @@
 		(uuid "f022fda7-6c09-455b-bd73-9e885e4edd8b")
 	)
 	(fp_rect
-		(start 7.03531 0.77675)
-		(end -2.74438 0.05)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "76244640-8b04-48db-90fc-6133e65dfc52")
-	)
-	(fp_rect
 		(start 7.27489 -1.05)
 		(end 6.8249 -1.2)
 		(stroke
@@ -690,6 +679,17 @@
 		(uuid "78f52070-d415-4c8e-b812-edb4606bf207")
 	)
 	(fp_rect
+		(start 7.03531 0.77675)
+		(end -2.74438 0.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "Dwgs.User")
+		(uuid "76244640-8b04-48db-90fc-6133e65dfc52")
+	)
+	(fp_rect
 		(start 11.02689 0.77675)
 		(end 8.62488 0.05)
 		(stroke
@@ -697,7 +697,7 @@
 			(type default)
 		)
 		(fill solid)
-		(layer "F.Cu")
+		(layer "Dwgs.User")
 		(uuid "1024ef64-5fea-4199-9490-f496d4a7d65e")
 	)
 	(fp_text user "ÊÊÓÃFR4°å²Ä£¬1.6mm°åºñ£¬·â×°Î´¿ª´°£¬½¨ÒéÌìÏß¿ª´°¡£¼¼Êõ×ÉÑ¯ tech@wch.cn"
