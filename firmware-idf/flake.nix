@@ -1,9 +1,23 @@
 {
-  description = "devshell for ESP32C3";
-
   inputs = {
-    idf.url = "github:mirrexagon/nixpkgs-esp-dev";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    esp-idf = {
+      url = "github:mirrexagon/nixpkgs-esp-dev";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
-
-  outputs = { idf, system }: idf."${system}".devShells.esp32c3-idf;
+  outputs = flakes:
+    let
+      system = "x86_64-linux";
+      pkgs = import flakes.nixpkgs { inherit system; };
+      esp-idf = flakes.esp-idf.packages.${system};
+    in
+    {
+      devShells.${system}.default = pkgs.mkShell {
+        packages = [
+          esp-idf.esp-idf-esp32c3
+          pkgs.glibc_multi
+        ];
+      };
+    };
 }
